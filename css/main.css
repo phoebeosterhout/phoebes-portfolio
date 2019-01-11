@@ -1,0 +1,212 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    background-color: #000000;
+    height: 700px;
+}
+
+header h1 {
+    color: #FBFEFB;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 85px;
+    margin-left: 50px;
+    margin-right: -300px;
+    margin-top: 150px;
+}
+
+h1 span {
+    color: #47C285;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #47C285;
+    clear: both;
+    height: 750px;
+    margin-top: -30px;
+}
+
+#about h2 {
+    color: #FBFEFB;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 90px;
+    text-align: center;
+}
+
+#about img {
+    border: 4px #FBFEFB solid;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about p {
+    color: #FBFEFB;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 45px;
+    text-align: center;
+    width: 620px;
+}
+
+#about p span {
+    font-weight: 400;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    background-color: #000000;
+    height: 825px;
+    margin-top: -30px;
+}
+
+#portfolio h2 {
+    color: #FBFEFB;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio img {
+    padding: 25px;
+}
+
+#portfolio h3 {
+    color: #FBFEFB;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 8px;
+    text-align: center;
+}
+
+#portfolio p {
+    color: #FBFEFB;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #FBFEFB;
+    height: 450px;
+    margin-top: -30px;
+}
+
+#contact h2 {
+    color: #000000;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#contact h4 {
+    text-align: center;
+}
+
+#contact p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#contact a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#contact img {
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#contact #social {
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background-color: #47C285;
+    height: 90px;
+}
+
+footer p {
+    color: #FBFEFB;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 38px;
+    text-align: center;
+}
